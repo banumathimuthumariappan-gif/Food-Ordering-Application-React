@@ -1,0 +1,477 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Meghna Foods",
+      "image": "/images/restaurants/meghna-foods.jpg",
+      "cuisines": [
+        "Biryani",
+        "Chinese",
+        "North Indian"
+      ],
+      "rating": 4.3,
+      "ratingCount": 2847,
+      "deliveryTime": 38,
+      "priceForTwo": 500,
+      "costForTwo": "₹500 for two",
+      "location": "Koramangala",
+      "city": "Bangalore",
+      "distance": 2.4,
+      "isPureVeg": false,
+      "isOpen": true,
+      "offer": "20% OFF up to ₹100",
+      "promoted": true
+    },
+    {
+      "id": 2,
+      "name": "KFC",
+      "image": "/images/restaurants/kfc.jpg",
+      "cuisines": [
+        "Burgers",
+        "Fast Food",
+        "Chicken"
+      ],
+      "rating": 4.2,
+      "ratingCount": 5632,
+      "deliveryTime": 25,
+      "priceForTwo": 450,
+      "costForTwo": "₹450 for two",
+      "location": "HSR Layout",
+      "city": "Bangalore",
+      "distance": 1.8,
+      "isPureVeg": false,
+      "isOpen": true,
+      "offer": "Flat ₹75 OFF",
+      "promoted": false
+    },
+    {
+      "id": 3,
+      "name": "Empire Restaurant",
+      "image": "/images/restaurants/empire.jpg",
+      "cuisines": [
+        "Biryani",
+        "Chinese",
+        "South Indian"
+      ],
+      "rating": 4.1,
+      "ratingCount": 3214,
+      "deliveryTime": 32,
+      "priceForTwo": 600,
+      "costForTwo": "₹600 for two",
+      "location": "Indiranagar",
+      "city": "Bangalore",
+      "distance": 3.1,
+      "isPureVeg": false,
+      "isOpen": true,
+      "offer": "10% OFF",
+      "promoted": false
+    },
+    {
+      "id": 4,
+      "name": "A2B - Adyar Ananda Bhavan",
+      "image": "/images/restaurants/a2b.jpg",
+      "cuisines": [
+        "South Indian",
+        "North Indian",
+        "Sweets"
+      ],
+      "rating": 4.5,
+      "ratingCount": 7821,
+      "deliveryTime": 30,
+      "priceForTwo": 400,
+      "costForTwo": "₹400 for two",
+      "location": "Marathahalli",
+      "city": "Bangalore",
+      "distance": 2.7,
+      "isPureVeg": true,
+      "isOpen": true,
+      "offer": "20% OFF up to ₹150",
+      "promoted": true
+    },
+    {
+      "id": 5,
+      "name": "Nandhana Palace",
+      "image": "/images/restaurants/nandhana.jpg",
+      "cuisines": [
+        "Andhra",
+        "Biryani",
+        "North Indian"
+      ],
+      "rating": 4.2,
+      "ratingCount": 4126,
+      "deliveryTime": 35,
+      "priceForTwo": 550,
+      "costForTwo": "₹550 for two",
+      "location": "BTM Layout",
+      "city": "Bangalore",
+      "distance": 2.1,
+      "isPureVeg": false,
+      "isOpen": true,
+      "offer": "₹100 OFF above ₹499",
+      "promoted": false
+    },
+    {
+      "id": 6,
+      "name": "Burger King",
+      "image": "/images/restaurants/burger-king.jpg",
+      "cuisines": [
+        "Burgers",
+        "Fast Food",
+        "Beverages"
+      ],
+      "rating": 4.0,
+      "ratingCount": 6482,
+      "deliveryTime": 28,
+      "priceForTwo": 400,
+      "costForTwo": "₹400 for two",
+      "location": "Whitefield",
+      "city": "Bangalore",
+      "distance": 4.2,
+      "isPureVeg": false,
+      "isOpen": true,
+      "offer": "Buy 1 Get 1 Free",
+      "promoted": false
+    },
+    {
+      "id": 7,
+      "name": "Saravana Bhavan",
+      "image": "/images/restaurants/saravana-bhavan.jpg",
+      "cuisines": [
+        "South Indian",
+        "Breakfast",
+        "Beverages"
+      ],
+      "rating": 4.4,
+      "ratingCount": 5234,
+      "deliveryTime": 24,
+      "priceForTwo": 350,
+      "costForTwo": "₹350 for two",
+      "location": "Electronic City",
+      "city": "Bangalore",
+      "distance": 3.5,
+      "isPureVeg": true,
+      "isOpen": true,
+      "offer": "15% OFF",
+      "promoted": false
+    },
+    {
+      "id": 8,
+      "name": "Domino's Pizza",
+      "image": "/images/restaurants/dominos.jpg",
+      "cuisines": [
+        "Pizza",
+        "Italian",
+        "Fast Food"
+      ],
+      "rating": 4.3,
+      "ratingCount": 9234,
+      "deliveryTime": 35,
+      "priceForTwo": 500,
+      "costForTwo": "₹500 for two",
+      "location": "Bellandur",
+      "city": "Bangalore",
+      "distance": 2.9,
+      "isPureVeg": false,
+      "isOpen": true,
+      "offer": "40% OFF up to ₹125",
+      "promoted": true
+    },
+    {
+      "id": 9,
+      "name": "Chai Point",
+      "image": "/images/restaurants/chai-point.jpg",
+      "cuisines": [
+        "Tea",
+        "Snacks",
+        "Beverages"
+      ],
+      "rating": 4.2,
+      "ratingCount": 2876,
+      "deliveryTime": 20,
+      "priceForTwo": 250,
+      "costForTwo": "₹250 for two",
+      "location": "HSR Layout",
+      "city": "Bangalore",
+      "distance": 1.5,
+      "isPureVeg": true,
+      "isOpen": true,
+      "offer": "₹50 OFF above ₹199",
+      "promoted": false
+    },
+    {
+      "id": 10,
+      "name": "Pizza Hut",
+      "image": "/images/restaurants/pizza-hut.jpg",
+      "cuisines": [
+        "Pizza",
+        "Italian",
+        "Desserts"
+      ],
+      "rating": 4.1,
+      "ratingCount": 7345,
+      "deliveryTime": 34,
+      "priceForTwo": 600,
+      "costForTwo": "₹600 for two",
+      "location": "Jayanagar",
+      "city": "Bangalore",
+      "distance": 3.8,
+      "isPureVeg": false,
+      "isOpen": true,
+      "offer": "30% OFF",
+      "promoted": false
+    }
+  ],
+
+  "categories": [
+    {
+      "id": 1,
+      "name": "Biryani",
+      "image": "/images/categories/biryani.png"
+    },
+    {
+      "id": 2,
+      "name": "Pizza",
+      "image": "/images/categories/pizza.png"
+    },
+    {
+      "id": 3,
+      "name": "Burger",
+      "image": "/images/categories/burger.png"
+    },
+    {
+      "id": 4,
+      "name": "South Indian",
+      "image": "/images/categories/south-indian.png"
+    },
+    {
+      "id": 5,
+      "name": "Chinese",
+      "image": "/images/categories/chinese.png"
+    },
+    {
+      "id": 6,
+      "name": "Desserts",
+      "image": "/images/categories/desserts.png"
+    },
+    {
+      "id": 7,
+      "name": "Beverages",
+      "image": "/images/categories/beverages.png"
+    }
+  ],
+
+  "menuItems": [
+    {
+      "id": 101,
+      "restaurantId": 1,
+      "category": "Biryani",
+      "name": "Chicken Biryani",
+      "description": "Aromatic basmati rice cooked with tender chicken and traditional spices.",
+      "price": 289,
+      "image": "/images/menu/chicken-biryani.jpg",
+      "isVeg": false,
+      "isAvailable": true,
+      "isPopular": true,
+      "rating": 4.5
+    },
+    {
+      "id": 102,
+      "restaurantId": 1,
+      "category": "Biryani",
+      "name": "Mutton Biryani",
+      "description": "Flavorful basmati rice prepared with tender mutton and aromatic spices.",
+      "price": 349,
+      "image": "/images/menu/mutton-biryani.jpg",
+      "isVeg": false,
+      "isAvailable": true,
+      "isPopular": true,
+      "rating": 4.6
+    },
+    {
+      "id": 103,
+      "restaurantId": 1,
+      "category": "Starters",
+      "name": "Chicken 65",
+      "description": "Crispy fried chicken tossed with South Indian spices.",
+      "price": 249,
+      "image": "/images/menu/chicken-65.jpg",
+      "isVeg": false,
+      "isAvailable": true,
+      "isPopular": false,
+      "rating": 4.3
+    },
+    {
+      "id": 104,
+      "restaurantId": 2,
+      "category": "Burgers",
+      "name": "Chicken Zinger Burger",
+      "description": "Crispy chicken fillet with lettuce and creamy sauce.",
+      "price": 219,
+      "image": "/images/menu/zinger-burger.jpg",
+      "isVeg": false,
+      "isAvailable": true,
+      "isPopular": true,
+      "rating": 4.4
+    },
+    {
+      "id": 105,
+      "restaurantId": 2,
+      "category": "Chicken",
+      "name": "Hot & Crispy Chicken",
+      "description": "Crispy chicken pieces seasoned with KFC's signature spices.",
+      "price": 329,
+      "image": "/images/menu/hot-crispy.jpg",
+      "isVeg": false,
+      "isAvailable": true,
+      "isPopular": true,
+      "rating": 4.5
+    },
+    {
+      "id": 106,
+      "restaurantId": 4,
+      "category": "South Indian",
+      "name": "Masala Dosa",
+      "description": "Crispy dosa served with potato masala, sambar and chutney.",
+      "price": 129,
+      "image": "/images/menu/masala-dosa.jpg",
+      "isVeg": true,
+      "isAvailable": true,
+      "isPopular": true,
+      "rating": 4.6
+    },
+    {
+      "id": 107,
+      "restaurantId": 4,
+      "category": "Breakfast",
+      "name": "Idli Vada Combo",
+      "description": "Soft idlis and crispy vada served with sambar and chutney.",
+      "price": 119,
+      "image": "/images/menu/idli-vada.jpg",
+      "isVeg": true,
+      "isAvailable": true,
+      "isPopular": false,
+      "rating": 4.4
+    },
+    {
+      "id": 108,
+      "restaurantId": 8,
+      "category": "Pizza",
+      "name": "Farmhouse Pizza",
+      "description": "Loaded with fresh vegetables and mozzarella cheese.",
+      "price": 399,
+      "image": "/images/menu/farmhouse-pizza.jpg",
+      "isVeg": true,
+      "isAvailable": true,
+      "isPopular": true,
+      "rating": 4.5
+    },
+    {
+      "id": 109,
+      "restaurantId": 8,
+      "category": "Pizza",
+      "name": "Chicken Pepperoni Pizza",
+      "description": "Classic pizza topped with chicken pepperoni and cheese.",
+      "price": 499,
+      "image": "/images/menu/pepperoni-pizza.jpg",
+      "isVeg": false,
+      "isAvailable": true,
+      "isPopular": true,
+      "rating": 4.4
+    },
+    {
+      "id": 110,
+      "restaurantId": 9,
+      "category": "Beverages",
+      "name": "Masala Chai",
+      "description": "Refreshing Indian tea brewed with aromatic spices.",
+      "price": 89,
+      "image": "/images/menu/masala-chai.jpg",
+      "isVeg": true,
+      "isAvailable": true,
+      "isPopular": true,
+      "rating": 4.5
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "name": "Rahul Sharma",
+      "email": "rahul@example.com",
+      "phone": "9876543210",
+      "addresses": [
+        {
+          "id": 1,
+          "type": "Home",
+          "addressLine1": "24, 5th Main Road",
+          "addressLine2": "HSR Layout",
+          "city": "Bangalore",
+          "state": "Karnataka",
+          "pincode": "560102",
+          "isDefault": true
+        }
+      ]
+    }
+  ],
+
+  "orders": [
+    {
+      "id": "ORD10001",
+      "userId": 1,
+      "restaurantId": 1,
+      "items": [
+        {
+          "menuItemId": 101,
+          "name": "Chicken Biryani",
+          "quantity": 2,
+          "unitPrice": 289,
+          "totalPrice": 578
+        },
+        {
+          "menuItemId": 103,
+          "name": "Chicken 65",
+          "quantity": 1,
+          "unitPrice": 249,
+          "totalPrice": 249
+        }
+      ],
+      "subtotal": 827,
+      "deliveryFee": 40,
+      "platformFee": 5,
+      "discount": 100,
+      "tax": 41.35,
+      "total": 813.35,
+      "paymentMethod": "UPI",
+      "paymentStatus": "PAID",
+      "orderStatus": "DELIVERED",
+      "deliveryAddressId": 1,
+      "placedAt": "2026-09-25T13:20:00Z",
+      "deliveredAt": "2026-09-25T14:02:00Z"
+    }
+  ],
+
+  "offers": [
+    {
+      "id": 1,
+      "code": "WELCOME100",
+      "title": "Flat ₹100 OFF",
+      "description": "Get ₹100 off on your first order.",
+      "discountType": "FLAT",
+      "discountValue": 100,
+      "minimumOrderValue": 499,
+      "maximumDiscount": 100,
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "code": "FOODIE20",
+      "title": "20% OFF",
+      "description": "Get 20% off on orders above ₹399.",
+      "discountType": "PERCENTAGE",
+      "discountValue": 20,
+      "minimumOrderValue": 399,
+      "maximumDiscount": 150,
+      "isActive": true
+    }
+  ]
+}
