@@ -1,8 +1,8 @@
 interface RestaurantProps {
     resName?: string;
     cuisine?: string;
-    rating?: string;
-    deliveryTime?: string;
+    rating?: number;
+    deliveryTime?: number;
     image?: string
 }
 
@@ -15,8 +15,8 @@ const RestaurantCard = ({resName, cuisine, rating, deliveryTime, image}: Restaur
             <div className="card-body">
                 <h6 className='card-title'>{resName}</h6>
                 <p>{cuisine}</p>
-                <p>{rating}</p>
-                <p>{deliveryTime}</p>
+                <p>{rating} stars</p>
+                <p>{deliveryTime} minutes</p>
             </div>
         </div>
     );
