@@ -20,7 +20,60 @@
       "isPureVeg": false,
       "isOpen": true,
       "offer": "20% OFF up to ₹100",
-      "promoted": true
+      "promoted": true,
+      "menuCategories": [
+        {
+          "id": 1,
+          "name": "Biryani",
+          "items": [
+            {
+              "id": 101,
+              "restaurantId": 1,
+              "category": "Biryani",
+              "name": "Chicken Biryani",
+              "description": "Aromatic basmati rice cooked with tender chicken and traditional spices.",
+              "price": 289,
+              "image": "/images/menu/chicken-biryani.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": true,
+              "rating": 4.5
+            },
+            {
+              "id": 102,
+              "restaurantId": 1,
+              "category": "Biryani",
+              "name": "Mutton Biryani",
+              "description": "Flavorful basmati rice prepared with tender mutton and aromatic spices.",
+              "price": 349,
+              "image": "/images/menu/mutton-biryani.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": true,
+              "rating": 4.6
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Starters",
+          "items": [
+            {
+              "id": 103,
+              "restaurantId": 1,
+              "category": "Starters",
+              "name": "Chicken 65",
+              "description": "Crispy fried chicken tossed with South Indian spices.",
+              "price": 249,
+              "image": "/images/menu/chicken-65.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.3
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 2,
@@ -42,7 +95,47 @@
       "isPureVeg": false,
       "isOpen": true,
       "offer": "Flat ₹75 OFF",
-      "promoted": false
+      "promoted": false,
+      "menuCategories": [
+        {
+          "id": 1,
+          "name": "Burgers",
+          "items": [
+            {
+              "id": 104,
+              "restaurantId": 2,
+              "category": "Burgers",
+              "name": "Chicken Zinger Burger",
+              "description": "Crispy chicken fillet with lettuce and creamy sauce.",
+              "price": 219,
+              "image": "/images/menu/zinger-burger.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": true,
+              "rating": 4.4
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Chicken",
+          "items": [
+            {
+              "id": 105,
+              "restaurantId": 2,
+              "category": "Chicken",
+              "name": "Hot & Crispy Chicken",
+              "description": "Crispy chicken pieces seasoned with KFC's signature spices.",
+              "price": 329,
+              "image": "/images/menu/hot-crispy.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": true,
+              "rating": 4.5
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 3,
@@ -64,7 +157,105 @@
       "isPureVeg": false,
       "isOpen": true,
       "offer": "10% OFF",
-      "promoted": false
+      "promoted": false,
+      "menuCategories": [
+        {
+          "id": 1,
+          "name": "Starters",
+          "items": [
+            {
+              "id": 1001,
+              "restaurantId": 3,
+              "category": "Starters",
+              "name": "Chicken Kebab",
+              "description": "Delicious Chicken Kebab.",
+              "price": 279,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1002,
+              "restaurantId": 3,
+              "category": "Starters",
+              "name": "Paneer Tikka",
+              "description": "Delicious Paneer Tikka.",
+              "price": 229,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Main Course",
+          "items": [
+            {
+              "id": 1003,
+              "restaurantId": 3,
+              "category": "Main Course",
+              "name": "Chicken Biryani",
+              "description": "Delicious Chicken Biryani.",
+              "price": 299,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1004,
+              "restaurantId": 3,
+              "category": "Main Course",
+              "name": "Butter Chicken",
+              "description": "Delicious Butter Chicken.",
+              "price": 319,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Desserts",
+          "items": [
+            {
+              "id": 1005,
+              "restaurantId": 3,
+              "category": "Desserts",
+              "name": "Gulab Jamun",
+              "description": "Delicious Gulab Jamun.",
+              "price": 99,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1006,
+              "restaurantId": 3,
+              "category": "Desserts",
+              "name": "Kulfi",
+              "description": "Delicious Kulfi.",
+              "price": 119,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 4,
@@ -86,7 +277,47 @@
       "isPureVeg": true,
       "isOpen": true,
       "offer": "20% OFF up to ₹150",
-      "promoted": true
+      "promoted": true,
+      "menuCategories": [
+        {
+          "id": 1,
+          "name": "South Indian",
+          "items": [
+            {
+              "id": 106,
+              "restaurantId": 4,
+              "category": "South Indian",
+              "name": "Masala Dosa",
+              "description": "Crispy dosa served with potato masala, sambar and chutney.",
+              "price": 129,
+              "image": "/images/menu/masala-dosa.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": true,
+              "rating": 4.6
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Breakfast",
+          "items": [
+            {
+              "id": 107,
+              "restaurantId": 4,
+              "category": "Breakfast",
+              "name": "Idli Vada Combo",
+              "description": "Soft idlis and crispy vada served with sambar and chutney.",
+              "price": 119,
+              "image": "/images/menu/idli-vada.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.4
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 5,
@@ -108,7 +339,105 @@
       "isPureVeg": false,
       "isOpen": true,
       "offer": "₹100 OFF above ₹499",
-      "promoted": false
+      "promoted": false,
+      "menuCategories": [
+        {
+          "id": 1,
+          "name": "Biryani",
+          "items": [
+            {
+              "id": 1007,
+              "restaurantId": 5,
+              "category": "Biryani",
+              "name": "Chicken Biryani",
+              "description": "Delicious Chicken Biryani.",
+              "price": 299,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1008,
+              "restaurantId": 5,
+              "category": "Biryani",
+              "name": "Mutton Biryani",
+              "description": "Delicious Mutton Biryani.",
+              "price": 369,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Starters",
+          "items": [
+            {
+              "id": 1009,
+              "restaurantId": 5,
+              "category": "Starters",
+              "name": "Chicken 65",
+              "description": "Delicious Chicken 65.",
+              "price": 249,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1010,
+              "restaurantId": 5,
+              "category": "Starters",
+              "name": "Paneer Tikka",
+              "description": "Delicious Paneer Tikka.",
+              "price": 219,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Curries",
+          "items": [
+            {
+              "id": 1011,
+              "restaurantId": 5,
+              "category": "Curries",
+              "name": "Butter Chicken",
+              "description": "Delicious Butter Chicken.",
+              "price": 319,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1012,
+              "restaurantId": 5,
+              "category": "Curries",
+              "name": "Paneer Butter Masala",
+              "description": "Delicious Paneer Butter Masala.",
+              "price": 269,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 6,
@@ -130,7 +459,105 @@
       "isPureVeg": false,
       "isOpen": true,
       "offer": "Buy 1 Get 1 Free",
-      "promoted": false
+      "promoted": false,
+      "menuCategories": [
+        {
+          "id": 1,
+          "name": "Burgers",
+          "items": [
+            {
+              "id": 1013,
+              "restaurantId": 6,
+              "category": "Burgers",
+              "name": "Whopper",
+              "description": "Delicious Whopper.",
+              "price": 249,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1014,
+              "restaurantId": 6,
+              "category": "Burgers",
+              "name": "Chicken Burger",
+              "description": "Delicious Chicken Burger.",
+              "price": 229,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Sides",
+          "items": [
+            {
+              "id": 1015,
+              "restaurantId": 6,
+              "category": "Sides",
+              "name": "French Fries",
+              "description": "Delicious French Fries.",
+              "price": 119,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1016,
+              "restaurantId": 6,
+              "category": "Sides",
+              "name": "Cheese Fries",
+              "description": "Delicious Cheese Fries.",
+              "price": 149,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Beverages",
+          "items": [
+            {
+              "id": 1017,
+              "restaurantId": 6,
+              "category": "Beverages",
+              "name": "Coke",
+              "description": "Delicious Coke.",
+              "price": 79,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1018,
+              "restaurantId": 6,
+              "category": "Beverages",
+              "name": "Cold Coffee",
+              "description": "Delicious Cold Coffee.",
+              "price": 129,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 7,
@@ -152,7 +579,105 @@
       "isPureVeg": true,
       "isOpen": true,
       "offer": "15% OFF",
-      "promoted": false
+      "promoted": false,
+      "menuCategories": [
+        {
+          "id": 1,
+          "name": "South Indian",
+          "items": [
+            {
+              "id": 1019,
+              "restaurantId": 7,
+              "category": "South Indian",
+              "name": "Masala Dosa",
+              "description": "Delicious Masala Dosa.",
+              "price": 129,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1020,
+              "restaurantId": 7,
+              "category": "South Indian",
+              "name": "Ghee Roast Dosa",
+              "description": "Delicious Ghee Roast Dosa.",
+              "price": 159,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Breakfast",
+          "items": [
+            {
+              "id": 1021,
+              "restaurantId": 7,
+              "category": "Breakfast",
+              "name": "Idli",
+              "description": "Delicious Idli.",
+              "price": 79,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1022,
+              "restaurantId": 7,
+              "category": "Breakfast",
+              "name": "Vada",
+              "description": "Delicious Vada.",
+              "price": 89,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Beverages",
+          "items": [
+            {
+              "id": 1023,
+              "restaurantId": 7,
+              "category": "Beverages",
+              "name": "Filter Coffee",
+              "description": "Delicious Filter Coffee.",
+              "price": 69,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1024,
+              "restaurantId": 7,
+              "category": "Beverages",
+              "name": "Masala Tea",
+              "description": "Delicious Masala Tea.",
+              "price": 59,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 8,
@@ -174,7 +699,105 @@
       "isPureVeg": false,
       "isOpen": true,
       "offer": "40% OFF up to ₹125",
-      "promoted": true
+      "promoted": true,
+      "menuCategories": [
+        {
+          "id": 1,
+          "name": "Pizza",
+          "items": [
+            {
+              "id": 108,
+              "restaurantId": 8,
+              "category": "Pizza",
+              "name": "Farmhouse Pizza",
+              "description": "Loaded with fresh vegetables and mozzarella cheese.",
+              "price": 399,
+              "image": "/images/menu/farmhouse-pizza.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": true,
+              "rating": 4.5
+            },
+            {
+              "id": 109,
+              "restaurantId": 8,
+              "category": "Pizza",
+              "name": "Chicken Pepperoni Pizza",
+              "description": "Classic pizza topped with chicken pepperoni and cheese.",
+              "price": 499,
+              "image": "/images/menu/pepperoni-pizza.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": true,
+              "rating": 4.4
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Sides",
+          "items": [
+            {
+              "id": 1025,
+              "restaurantId": 8,
+              "category": "Sides",
+              "name": "Garlic Bread",
+              "description": "Delicious Garlic Bread.",
+              "price": 179,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1026,
+              "restaurantId": 8,
+              "category": "Sides",
+              "name": "Cheesy Dip",
+              "description": "Delicious Cheesy Dip.",
+              "price": 79,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Beverages",
+          "items": [
+            {
+              "id": 1027,
+              "restaurantId": 8,
+              "category": "Beverages",
+              "name": "Pepsi",
+              "description": "Delicious Pepsi.",
+              "price": 69,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1028,
+              "restaurantId": 8,
+              "category": "Beverages",
+              "name": "Lemon Iced Tea",
+              "description": "Delicious Lemon Iced Tea.",
+              "price": 99,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 9,
@@ -196,7 +819,28 @@
       "isPureVeg": true,
       "isOpen": true,
       "offer": "₹50 OFF above ₹199",
-      "promoted": false
+      "promoted": false,
+      "menuCategories": [
+        {
+          "id": 1,
+          "name": "Beverages",
+          "items": [
+            {
+              "id": 110,
+              "restaurantId": 9,
+              "category": "Beverages",
+              "name": "Masala Chai",
+              "description": "Refreshing Indian tea brewed with aromatic spices.",
+              "price": 89,
+              "image": "/images/menu/masala-chai.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": true,
+              "rating": 4.5
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 10,
@@ -218,10 +862,107 @@
       "isPureVeg": false,
       "isOpen": true,
       "offer": "30% OFF",
-      "promoted": false
+      "promoted": false,
+      "menuCategories": [
+        {
+          "id": 1,
+          "name": "Pizza",
+          "items": [
+            {
+              "id": 1029,
+              "restaurantId": 10,
+              "category": "Pizza",
+              "name": "Margherita Pizza",
+              "description": "Delicious Margherita Pizza.",
+              "price": 299,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1030,
+              "restaurantId": 10,
+              "category": "Pizza",
+              "name": "Farmhouse Pizza",
+              "description": "Delicious Farmhouse Pizza.",
+              "price": 449,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": false,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Sides",
+          "items": [
+            {
+              "id": 1031,
+              "restaurantId": 10,
+              "category": "Sides",
+              "name": "Garlic Bread",
+              "description": "Delicious Garlic Bread.",
+              "price": 169,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1032,
+              "restaurantId": 10,
+              "category": "Sides",
+              "name": "Cheesy Dip",
+              "description": "Delicious Cheesy Dip.",
+              "price": 79,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Desserts",
+          "items": [
+            {
+              "id": 1033,
+              "restaurantId": 10,
+              "category": "Desserts",
+              "name": "Choco Lava Cake",
+              "description": "Delicious Choco Lava Cake.",
+              "price": 129,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            },
+            {
+              "id": 1034,
+              "restaurantId": 10,
+              "category": "Desserts",
+              "name": "Brownie",
+              "description": "Delicious Brownie.",
+              "price": 149,
+              "image": "/images/menu/placeholder.jpg",
+              "isVeg": true,
+              "isAvailable": true,
+              "isPopular": false,
+              "rating": 4.2
+            }
+          ]
+        }
+      ]
     }
   ],
-
   "categories": [
     {
       "id": 1,
@@ -259,7 +1000,6 @@
       "image": "/images/categories/beverages.png"
     }
   ],
-
   "menuItems": [
     {
       "id": 101,
@@ -392,7 +1132,6 @@
       "rating": 4.5
     }
   ],
-
   "users": [
     {
       "id": 1,
@@ -413,7 +1152,6 @@
       ]
     }
   ],
-
   "orders": [
     {
       "id": "ORD10001",
@@ -449,7 +1187,6 @@
       "deliveredAt": "2026-09-25T14:02:00Z"
     }
   ],
-
   "offers": [
     {
       "id": 1,
