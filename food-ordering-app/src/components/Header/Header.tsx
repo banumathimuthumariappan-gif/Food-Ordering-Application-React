@@ -1,6 +1,10 @@
+import useAuth from "../../hooks/useAuth";
 import logo from "../../assets/logo.jpg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
+  const {isLoggedIn, username, login, logout} = useAuth();
+
   return (
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -9,18 +13,29 @@ const Header = () => {
             <img src={logo} alt="Foodie Logo" height={40} />
           </a>
           <div className="navbar-nav">
-            <a href="" className="nav-link">
+            <Link to="/" className="nav-link">
               Home
-            </a>
-            <a href="" className="nav-link">
+            </Link>
+            <Link to="about" className="nav-link">
               About Us
-            </a>
-            <a href="" className="nav-link">
+            </Link>
+            <Link to="contact" className="nav-link">
               Contact Us
-            </a>
-            <a href="" className="nav-link">
+            </Link>
+            <Link to="cart" className="nav-link">
               Cart
-            </a>
+            </Link>
+            {username && (
+              <a href="" className="nav-link">
+                {username}
+              </a>
+            )}
+            <button
+              className="btn btn-sm btn-primary"
+              onClick={isLoggedIn ? logout : login}
+            >
+              {isLoggedIn ? "Logout" : "Login"}
+            </button>
           </div>
         </div>
       </nav>
